@@ -8,21 +8,21 @@ import java.util.List;
 
 public class Main {
 	private static final int EPOCH_SIZE = 20;
-	private static final int EPOCH_COUNT = 300;
+	private static final int EPOCH_COUNT = 100;
 
 	public static final double RANGE = 3;
 	public static final int MAX_POW = 11;
 	public static final double MUTATE_PROBAB = 0.1;
 	
-	public static final String OUTPUT_LOG_PATH = "data/log-pow" + MAX_POW + ".csv";
+	public static final String OUTPUT_LOG_PATH = "data/log-pow" + MAX_POW +".csv";
 	
-	public static final String OUTPUT_NORMALS_PATH = "data/train/norm/normalized-normals-restult.csv";
-	public static final String OUTPUT_WARNINGS_PATH = "data/train/norm/normalized-warnings-result.csv";
-	public static final String OUTPUT_TESTING_PATH = "data/result-pow" + MAX_POW + ".csv";
+	public static final String OUTPUT_NORMALS_PATH = "data/train/norm/normalized-normals-restult-pow" + MAX_POW +".csv";
+	public static final String OUTPUT_WARNINGS_PATH = "data/train/norm/normalized-warnings-result-pow" + MAX_POW +".csv";
+	public static final String OUTPUT_TESTING_PATH = "data/result-pow" + MAX_POW +".csv";
 
 	public static final String TRAIN_NORM_PATH = "data/train/norm/normalized-normals.csv";
 	public static final String TRAIN_WARN_PATH = "data/train/norm/normalized-warnings.csv";
-	public static final String TEST_PATH = "data/test/norm/normalized-testing-pow" + MAX_POW + ".csv";
+	public static final String TEST_PATH = "data/test/norm/normalized-testing.csv";
 
 	public static void main(String[] args) throws Exception {
 		Data data = new Data(TRAIN_NORM_PATH, TRAIN_WARN_PATH);

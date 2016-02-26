@@ -18,6 +18,31 @@ public class DataRegulator {
 		
 		// meta-data, this is given, it is recoded though (by hand).
 		metaData = new HashMap<>();
+//		metaData.put(146,  new double[] {0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2.0, 1, 0, 0});
+//		metaData.put(149,  new double[] {0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 2.2, 0, 1, 0});
+//		metaData.put(155,  new double[] {0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 2.7, 0, 1, 0});
+//		metaData.put(171,  new double[] {0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2.0, 1, 0, 0});
+//		metaData.put(264,  new double[] {0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3.5, 0, 1, 0});
+//		metaData.put(373,  new double[] {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1.6, 0, 1, 0});
+//		metaData.put(437,  new double[] {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 3.0, 0, 1, 0});
+//		metaData.put(470,  new double[] {0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3.8, 0, 0, 1});
+//		metaData.put(479,  new double[] {0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 4.0, 1, 0, 0});
+//		metaData.put(490,  new double[] {0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1.9, 1, 0, 0});
+//		metaData.put(508,  new double[] {0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2.8, 1, 0, 0});
+//		metaData.put(541,  new double[] {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 4.4, 0, 1, 0});
+//		metaData.put(575,  new double[] {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 3.0, 0, 1, 0});
+//		metaData.put(583,  new double[] {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 4.0, 0, 1, 0});
+//		metaData.put(599,  new double[] {0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 3.0, 1, 0, 0});
+//		metaData.put(607,  new double[] {0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 3.8, 0, 1, 0});
+//		metaData.put(641,  new double[] {0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 3.8, 1, 0, 0});
+//		metaData.put(689,  new double[] {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 3.0, 0, 1, 0});
+//		metaData.put(703,  new double[] {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 3.0, 1, 0, 0});
+//		metaData.put(725,  new double[] {0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 2.2, 0, 1, 0});
+//		metaData.put(765,  new double[] {1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1.4, 1, 0, 0});
+//		metaData.put(777,  new double[] {0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 3.4, 0, 1, 0});
+//		metaData.put(793,  new double[] {0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3.4, 0, 1, 0});
+//		metaData.put(799,  new double[] {0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 3.2, 1, 0, 0});
+		
 		metaData.put(146,  new double[] {2.0, 1, 0, 0});
 		metaData.put(149,  new double[] {2.2, 0, 1, 0});
 		metaData.put(155,  new double[] {2.7, 0, 1, 0});
